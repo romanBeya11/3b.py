@@ -1,0 +1,126 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{50, 6}, {435, 53}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "44D0B0D1-E270-43C4-9903-8C013A343BAB",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Type in a '1' for a Large Pizza, or a '2' for an EXTRA Large Pizza",
+          "name" : "label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{64, 67}, {200, 45}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "AFB6E96D-21BA-4BA4-A3BE-17B4E340D4FF",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "pizza_size_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{50, 127}, {150, 51}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "1B6D492F-8BA3-4004-AC5B-C53735E7D377",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Enter your # of toppings ",
+          "name" : "label3",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{303, 67}, {182, 151}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_pizza_cost_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Calculate Cost",
+          "uuid" : "82B3709A-70D2-4728-AD63-4DE46C276ADA",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 23
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{64, 258}, {555, 327}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "F5AEFD91-25B8-4907-A5E3-98E79B8758AD",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "final_costs_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{64, 186}, {200, 47}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "#_of_toppings_textfield",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "F6F8CC6C-E534-4DA2-B1C0-8F8820154C23",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
